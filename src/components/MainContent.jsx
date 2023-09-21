@@ -115,7 +115,7 @@ export const MainContent = () => {
             <div className="flex flex-col gap-[12px]">
                 <div>
                     <button className="uppercase px-[54] sm:px-[64px] py-[16px] bg-green text-white text-[14px] sm:text-[20px] flex gap-[10px] sm:gap-[19px] w-full rounded-[50px] font-bold justify-center">
-                        Yes - Claim my discount
+                        <span>Yes - Claim my discount</span>
                         <img src={arrow} alt="arrow" className="w-[12px] sm:w-[16px]"/>
                     </button>
                 </div>
