@@ -114,9 +114,9 @@ export const MainContent = () => {
             </div>
             <div className="flex flex-col gap-[12px]">
                 <div>
-                    <button className="uppercase px-[54] sm:px-[64px] py-[16px] bg-green text-white text-[14px] sm:text-[20px] flex gap-[10px] sm:gap-[19px] w-full rounded-[50px] font-bold justify-center">
+                    <button className="uppercase px-[54] sm:px-[64px] py-[16px] bg-green text-white text-[14px] sm:text-[20px] flex gap-[10px] sm:gap-[19px] w-full rounded-[50px] font-bold justify-center items-center">
                         <span>Yes - Claim my discount</span>
-                        <img src={arrow} alt="arrow" className="w-[12px] sm:w-[16px]"/>
+                        <img src={arrow} alt="arrow" className="w-[13px] sm:w-[16px]"/>
                     </button>
                 </div>
                 <div className="border border-lightGray rounded-[4px] capitalize text-[11px] xl:text-[14px] flex items-center justify-center flex-col xl:flex-row w-full px-[4px] py-[8px]"> 
