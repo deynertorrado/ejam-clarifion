@@ -156,7 +156,7 @@ export const MainContent = () => {
                     </div>
                 <div className="flex text-gray gap-[16px] text-[12px] sm:text-[16px]">
                     <img src={satisfaction} alt="satisfaction" className="h-[48px] w-[48px] sm:h-[88px] sm:w-[88px]" />
-                    <p>If you are not completely thrilled with your Clarifion - We have a <span className="inline font-bold">30 day satisfaction guarantee.</span> Please refer to our return policy at the bottom of the page for more details. Happy Shopping!</p>
+                    <p>If you are not completely thrilled with your Clarifion - We have a <span className="inline font-bold">30 day satisfaction guarantee. </span>Please refer to our return policy at the bottom of the page for more details. Happy Shopping!</p>
                 </div>
             </div>
             </div>
