@@ -52,7 +52,7 @@ export const MainContent = () => {
 
         {/* Second Section */}
         <div className="lg:basis-1/2 flex flex-col  gap-[25px] font-manrope">
-            <div className="capitalize text-blue text-[28px] text-center xl:text-start">
+            <div className="capitalize text-blue text-[28px] text-center md:text-start">
                 <p className="inline">ONE TIME ONLY </p>
                 <p className="inline text-black">special price for 6 extra Clarifion for only </p>
                 <p className="inline">$14 each </p>
@@ -93,15 +93,15 @@ export const MainContent = () => {
             <div  className="flex flex-col gap-[10px] text-[12px] sm:text-[16px]">
                 <div className="flex items-center gap-[10px]">
                     <img src={tickCircle} alt="tick" className="h-[16px] w-[16px] sm:h-[22px] sm:w-[22px]"/>
-                    <p className="inline text-gray">Negative Ion Technology may<p className="inline font-bold"> help with allergens</p></p>
+                    <p className="inline text-gray">Negative Ion Technology may<span className="inline font-bold"> help with allergens</span></p>
                 </div>
                 <div className="flex items-center gap-[10px]">
                     <img src={tickCircle} alt="tick" className="h-[16px] w-[16px] sm:h-[22px] sm:w-[22px]"/>
-                    <p className="inline text-gray">Designed for<p className="inline font-bold"> air rejuvenation</p></p>
+                    <p className="inline text-gray">Designed for<span className="inline font-bold"> air rejuvenation</span></p>
                 </div>
                 <div className="flex items-center gap-[10px]">
                     <img src={tickCircle} alt="tick" className="h-[16px] w-[16px] sm:h-[22px] sm:w-[22px]"/>
-                    <p className="inline text-gray">Perfect for every room<p className="inline font-bold"> in all types of places.</p></p>
+                    <p className="inline text-gray">Perfect for every room<span className="inline font-bold"> in all types of places.</span></p>
                 </div>
             </div>
             <div className="py-[12px] px-[16px] text-[14px] sm:text-[16px] w-auto bg-lightBlue rounded-[10px] flex items-center gap-[14px]">
@@ -109,7 +109,7 @@ export const MainContent = () => {
                     <img src={percent} alt="percent" />
                 </div>
                 <div>
-                    <p className="inline">Save<p className="text-blue inline"> 53% </p>and get<p className="text-blue inline"> 6 extra Clarifision </p>for only<p className="text-blue inline"> $14 Each</p>.</p>
+                    <p className="inline">Save<span className="text-blue inline"> 53% </span>and get<span className="text-blue inline"> 6 extra Clarifision </span>for only<span className="text-blue inline"> $14 Each</span>.</p>
                 </div>
             </div>
             <div className="flex flex-col gap-[12px]">
@@ -119,7 +119,7 @@ export const MainContent = () => {
                         <img src={arrow} alt="arrow" className="w-[12px] sm:w-[16px]"/>
                     </button>
                 </div>
-                <div className="border border-lightGray rounded-[4px] capitalize text-[11px] xl:text-[14    px] flex items-center justify-center flex-col xl:flex-row w-full px-[4px] py-[8px]"> 
+                <div className="border border-lightGray rounded-[4px] capitalize text-[11px] xl:text-[14px] flex items-center justify-center flex-col xl:flex-row w-full px-[4px] py-[8px]"> 
                     <div className="flex items-center">
                         <div className="ml-[5px] text-gray">
                             <p>Free shipping</p>
@@ -156,7 +156,7 @@ export const MainContent = () => {
                     </div>
                 <div className="flex text-gray gap-[16px] text-[12px] sm:text-[16px]">
                     <img src={satisfaction} alt="satisfaction" className="h-[48px] w-[48px] sm:h-[88px] sm:w-[88px]" />
-                    <p>If you are not completely thrilled with your Clarifion - We have a <p className="inline font-bold">30 day satisfaction guarantee.</p> Please refer to our return policy at the bottom of the page for more details. Happy Shopping!</p>
+                    <p>If you are not completely thrilled with your Clarifion - We have a <span className="inline font-bold">30 day satisfaction guarantee.</span> Please refer to our return policy at the bottom of the page for more details. Happy Shopping!</p>
                 </div>
             </div>
             </div>
