@@ -52,7 +52,7 @@ export const MainContent = () => {
 
         {/* Second Section */}
         <div className="lg:basis-1/2 flex flex-col  gap-[25px] font-manrope">
-            <div className="capitalize text-blue text-[28px] text-center sm:text-start">
+            <div className="capitalize text-blue text-[28px] text-center xl:text-start">
                 <p className="inline">ONE TIME ONLY </p>
                 <p className="inline text-black">special price for 6 extra Clarifion for only </p>
                 <p className="inline">$14 each </p>
@@ -119,7 +119,7 @@ export const MainContent = () => {
                         <img src={arrow} alt="arrow" className="w-[12px] sm:w-[16px]"/>
                     </button>
                 </div>
-                <div className="border border-lightGray rounded-[4px] capitalize text-[11px] xl:text-[14px] flex items-center justify-center flex-col xl:flex-row w-full px-[4px] py-[8px]"> 
+                <div className="border border-lightGray rounded-[4px] capitalize text-[11px] xl:text-[14    px] flex items-center justify-center flex-col xl:flex-row w-full px-[4px] py-[8px]"> 
                     <div className="flex items-center">
                         <div className="ml-[5px] text-gray">
                             <p>Free shipping</p>

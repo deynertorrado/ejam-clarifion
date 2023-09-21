@@ -4,7 +4,7 @@ import unfilled from '../assets/PurchaseStatus-assets/unfilled.svg';
 
 export const PurchaseStatus = () => {
     return (
-      <div className="font-manrope capitalize flex items-center justify-between text-[12px] sm:text-xl pb-[5px] pt-[16px] sm:py-6 md:py-12 px-4 md:px-10 lg:px-5 xl:px-24">
+      <div className="font-manrope capitalize flex items-center justify-between text-[12px] sm:text-xl pt-[16px] sm:pt-6 md:pt-12 lg:py-12 px-4 md:px-10 lg:px-5 xl:px-24">
         <div className="flex flex-col lg:flex-row items-center gap-[8px] sm:gap-[20px]">
           <img src={check} alt="check" className="w-[20px] h-[20px] sm:w-[40px] sm:h-[40px]"/>
           <p><p className="hidden lg:inline">Step 1: </p>Cart Review</p>
